@@ -1,0 +1,10 @@
+.nav-item {
+    font-size: calc(0.3rem + 1.0vw);
+    padding-right:calc(0.1rem + 1.5vw);
+  }
+.navbar-brand {
+    font-size: calc(0.75rem + 1.2vw);
+  }
+
+
+  

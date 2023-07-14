@@ -1,8 +1,26 @@
+/*styles for top section*/
 .font-size-numbers{
     font-size: 70px;
-    font-weight: 700;
 }
 .font-size-text-under-numbers{
-    font-weight: 700;
     color: #374574;
+    margin-top: -20px;
+}
+
+/*styles for vision mission section*/
+.text-heading{
+    font-size: 30px;
+}
+.text-visionMission{
+    font-size: 18px;
+    color: #374574;
+}
+
+/*card styles*/
+.card{
+    background-color: rgba(217,217,217,0.15);
+}
+/*styles for location section*/
+.bg-color{
+    background-color: #191F34;
 }

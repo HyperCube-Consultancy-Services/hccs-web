@@ -27,8 +27,9 @@
 .bg-color{
     background-color: #191F34;
 }
-
-.card-img-top-size{
-    width: 100px;
-    height: 100px;
+.img-border{
+    border-radius: 10%;
+}
+.img-shadow{
+    box-shadow: 20px -20px 10px rgba(55,69,116,1);
 }

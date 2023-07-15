@@ -23,12 +23,22 @@
     border-width: 0;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-/*styles for location section*/
-.bg-color{
-    background-color: #191F34;
-}
-
 .card-img-top-size{
     width: 100px;
     height: 100px;
 }
+/*styles for location section*/
+
+.img-border{
+    border-radius: 10%;
+    
+}
+.img-shadow{
+    box-shadow: 10px -10px 10px rgba(55,69,116,1);
+}
+
+.img-size{
+    width: 70%;
+    height: 70%;
+}
+

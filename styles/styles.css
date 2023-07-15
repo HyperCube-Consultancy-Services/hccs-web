@@ -11,3 +11,15 @@
 .bg-dark-blue{
   background-color: #1D253F;
 }
+
+.topic-text{
+  font-size: 50px;
+}
+.text-name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.line-space-min{
+  line-height: 40%;
+}

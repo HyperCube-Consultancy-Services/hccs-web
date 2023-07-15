@@ -1,3 +1,4 @@
+/*Navbar */
 .nav-item {
     font-size: calc(0.3rem + 1.0vw);
     padding-right:calc(0.1rem + 1.5vw);
@@ -12,8 +13,17 @@
   background-color: #1D253F;
 }
 
+.bg-light-gray{
+  background-color: #D9D9D9;
+}
+
+.text-dark-blue{
+  color: #1D253F;
+}
+
 .topic-text{
   font-size: 50px;
+  font-weight: 700;
 }
 .text-name{
   font-size: 20px;
@@ -23,3 +33,13 @@
 .line-space-min{
   line-height: 40%;
 }
+
+/*styles for services section*/
+.card{
+  background-color: rgba(217,217,217,0.15);
+}
+.card-img-top-size{
+  width: 100px;
+  height: 100px;
+}
+

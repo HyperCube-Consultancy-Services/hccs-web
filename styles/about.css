@@ -19,8 +19,16 @@
 /*card styles*/
 .card{
     background-color: rgba(217,217,217,0.15);
+    height: 330px;
+    border-width: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /*styles for location section*/
 .bg-color{
     background-color: #191F34;
+}
+
+.card-img-top-size{
+    width: 100px;
+    height: 100px;
 }

@@ -1,0 +1,9 @@
+/*styles for services section*/
+
+.card{
+    background-color: rgba(217,217,217,0.15);
+}
+.card-img-top-size{
+    width: 100px;
+    height: 100px;
+}

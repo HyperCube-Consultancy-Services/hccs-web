@@ -1,4 +1,6 @@
-/*styles for top section Taken*/
+
+/*styles for top section*/
+
 .font-size-numbers{
     font-size: 70px;
 }
@@ -7,7 +9,7 @@
     margin-top: -20px;
 }
 
-/*styles for vision mission section taken*/
+/*styles for vision mission section*/
 .text-heading{
     font-size: 30px;
 }
@@ -23,15 +25,21 @@
     border-width: 0;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .card-img-top-size{
     width: 100px;
     height: 100px;
 }
+
 /*styles for location section*/
 
 .img-border{
     border-radius: 10%;
-    
+
+.bg-color{
+    background-color: #191F34;
+}
+  
 }
 .img-shadow{
     box-shadow: 10px -10px 10px rgba(55,69,116,1);

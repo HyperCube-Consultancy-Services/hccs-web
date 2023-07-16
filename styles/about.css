@@ -1,4 +1,6 @@
+
 /*styles for top section*/
+
 .font-size-numbers{
     font-size: 70px;
 }
@@ -30,11 +32,14 @@
 }
 
 /*styles for location section*/
+
+.img-border{
+    border-radius: 10%;
+
 .bg-color{
     background-color: #191F34;
 }
-.img-border{
-    border-radius: 10%;
+  
 }
 .img-shadow{
     box-shadow: 10px -10px 10px rgba(55,69,116,1);
@@ -44,3 +49,4 @@
     width: 70%;
     height: 70%;
 }
+

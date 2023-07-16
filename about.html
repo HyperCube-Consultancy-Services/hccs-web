@@ -1,144 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <title>Document</title>
-</head>
-<body>
-    <!--begining of the nav bar-->
-    <!--end of the nav bar-->
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--**Navbar** -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <!--**Navbar container** -->
+      <div class="container-fluid">
+        <a href="" class="navbar-brand mb-0 h1">
+          <img src="images/icon1.png" class="img-fluid" width="65" />
+          HCCS Web
+        </a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active"> Home </a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link active"> About </a>
+            </li>
+            <li class="nav-item active">
+              <a href="" class="nav-link active"> Services </a>
+            </li>
+            <li class="nav-item active">
+              <a href="" class="nav-link active"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--**End of the Navbar** -->
     <!--begining of the about page section-->
     <div class="container-fuild">
-        <!--begining of top section-->
-        <div class="row mx-5">
-            <p class="fw-bold">About</p>
-            <p class="display-5 fw-bold">We are product engineering specialists</p>
-            <p class="lead" style="color: #374574;">Lorem ipsum dolor sit amet, consectetuer adipiscingLorem ipsum dolor sit amet, consectetuer adipiscing elit.elit.Lorem ipsum dolor sit amet, consectetuer adipiscing eliLorem ipsum dolor sit amet, consectetuer adipiscing elit.t</p>
+      <!--begining of top section-->
+      <div class="row mx-5">
+        <p class="fw-bold">About</p>
+        <p class="display-5 fw-bold">We are product engineering specialists</p>
+        <p class="lead" style="color: #374574">
+          Lorem ipsum dolor sit amet, consectetuer adipiscingLorem ipsum dolor
+          sit amet, consectetuer adipiscing elit.elit.Lorem ipsum dolor sit
+          amet, consectetuer adipiscing eliLorem ipsum dolor sit amet,
+          consectetuer adipiscing elit.t
+        </p>
+      </div>
+      <div class="row d-flex justify-content-center mx-5 my-5">
+        <div class="col-md-4 text-center">
+          <p class="font-size-numbers fw-bold">+5</p>
+          <p class="font-size-text-under-numbers fw-bold">Years of expertise</p>
         </div>
-        <div class="row d-flex justify-content-center mx-5 my-5">
-            <div class="col-md-4 text-center">
-                <p class="font-size-numbers fw-bold">+5</p>
-                <p class="font-size-text-under-numbers fw-bold">Years of expertise</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <p class="font-size-numbers fw-bold">+500</p>
-                <p class="font-size-text-under-numbers fw-bold">IT professionals</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <p class="font-size-numbers fw-bold">+200</p>
-                <p class="font-size-text-under-numbers fw-bold">Projects</p>
-            </div>
+        <div class="col-md-4 text-center">
+          <p class="font-size-numbers fw-bold">+500</p>
+          <p class="font-size-text-under-numbers fw-bold">IT professionals</p>
         </div>
-        <!--end of top section-->
+        <div class="col-md-4 text-center">
+          <p class="font-size-numbers fw-bold">+200</p>
+          <p class="font-size-text-under-numbers fw-bold">Projects</p>
+        </div>
+      </div>
+      <!--end of top section-->
 
-        <!--begining of vision and mission section-->
-        <div class="row justify-content-center" style="margin-top: 130px;">
-            <p class="fw-bold text-center text-heading">Our Vission and Mission</p>
-            <hr class="w-50" style="color: rgba(0,0,0,0.4);">
+      <!--begining of vision and mission section-->
+      <div class="row justify-content-center" style="margin-top: 130px">
+        <p class="fw-bold text-center text-heading">Our Vission and Mission</p>
+        <hr class="w-50" style="color: rgba(0, 0, 0, 0.4)" />
+      </div>
+      <div class="row mx-5 mt-3" style="margin-bottom: 100px">
+        <div class="col-md-6 text-center">
+          <p class="fw-bold text-center text-heading my-5">Vision</p>
+          <p class="lead fw-bold text-center text-visionMission mx-5">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem
+            ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
         </div>
-        <div class="row mx-5 mt-3" style="margin-bottom: 100px;">
-            <div class="col-md-6 text-center ">
-                <p class="fw-bold text-center text-heading my-5">Vision</p>
-                <p class="lead fw-bold text-center text-visionMission mx-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-            </div>
-            <div class="col-md-6 text-center">
-                <p class="fw-bold text-center text-heading my-5">Mission</p>
-                <p class="lead fw-bold text-center text-visionMission mx-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-            </div>
+        <div class="col-md-6 text-center">
+          <p class="fw-bold text-center text-heading my-5">Mission</p>
+          <p class="lead fw-bold text-center text-visionMission mx-5">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem
+            ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
         </div>
-        <!--end of vision and mission section-->
+      </div>
+      <!--end of vision and mission section-->
 
-        <!--begining of awards section-->
-        <div class="row mx-5 mt-5">
-            <p class="fw-bold text-center text-heading mt-5">Awards</p>
-            <hr class="mx-3" style="color: rgba(0,0,0,0.4);">
+      <!--begining of awards section-->
+      <div class="row mx-5 mt-5">
+        <p class="fw-bold text-center text-heading mt-5">Awards</p>
+        <hr class="mx-3" style="color: rgba(0, 0, 0, 0.4)" />
+      </div>
+      <div class="row mx-5">
+        <!--card for award 1-->
+        <div class="col-md-3 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/awards/award (1).png"
+              alt="Photo of award1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <strong>IoT Global Awards <br />2022</strong>
+              </h5>
+              <p class="card-text">Best Workforce Optimisation Platform</p>
+            </div>
+          </div>
         </div>
-        <div class="row mx-5">
-            <!--card for award 1-->
-            <div class="col-md-3 rounded-2">
-                <div class="card p-5 my-3 justify-content-center align-items-center">
-                    <img class="card-img-top p-3 card-img-top-size" src="public/images/awards/award (1).png" alt="Photo of award1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title"><strong>IoT Global Awards <br>2022</strong></h5>
-                        <p class="card-text">Best Workforce Optimisation Platform</p>
-                    </div>
-                 </div>
+        <!--card for award 2-->
+        <div class="col-md-3 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/awards/award.png"
+              alt="Photo of award1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <strong>CX Awards <br />2020</strong>
+              </h5>
+              <p class="card-text">Best Workforce Optimisation Platform</p>
             </div>
-            <!--card for award 2-->
-            <div class="col-md-3 rounded-2">
-                <div class="card p-5 my-3 justify-content-center align-items-center">
-                    <img class="card-img-top p-3 card-img-top-size" src="public/images/awards/award.png" alt="Photo of award1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title"><strong>CX Awards <br>2020</strong></h5>
-                        <p class="card-text">Best Workforce Optimisation Platform</p>
-                    </div>
-                 </div>
-            </div>
-            <!--card for award 3-->
-            <div class="col-md-3 rounded-2">
-                <div class="card p-5 my-3 justify-content-center align-items-center">
-                    <img class="card-img-top p-3 card-img-top-size" src="public/images/awards/olive-branches-award-symbol.png" alt="Photo of award1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title"><strong>Award 3</strong></h5>
-                        <p class="card-text">Best Workforce Optimisation Platform</p>
-                    </div>
-                 </div>
-            </div>
-            <!--card for award 4-->
-            <div class="col-md-3 rounded-2">
-                <div class="card p-5 my-3 justify-content-center align-items-center">
-                    <img class="card-img-top p-3 card-img-top-size" src="public/images/awards/trophy (2).png" alt="Photo of award1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title"><strong>Award 4</strong></h5>
-                        <p class="card-text">Best Workforce Optimisation Platform</p>
-                    </div>
-                 </div>
-            </div>
+          </div>
         </div>
-        <!--end of awards section-->
+        <!--card for award 3-->
+        <div class="col-md-3 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/awards/olive-branches-award-symbol.png"
+              alt="Photo of award1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Award 3</strong></h5>
+              <p class="card-text">Best Workforce Optimisation Platform</p>
+            </div>
+          </div>
+        </div>
+        <!--card for award 4-->
+        <div class="col-md-3 rounded-2">
+          <div class="card p-5 my-3 justify-content-center align-items-center">
+            <img
+              class="card-img-top p-3 card-img-top-size"
+              src="images/awards/trophy (2).png"
+              alt="Photo of award1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong>Award 4</strong></h5>
+              <p class="card-text">Best Workforce Optimisation Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end of awards section-->
 
-        <!--begining of location section-->
-        <div class="row bg-color mt-5">
-            <div class="col-md-6 mt-5">
-                <p class="display-5 fw-bold text-white ms-5 ">Our Location</p>
-                <p class="fw-bold text-center text-heading mt-5 text-white">Colombo</p>
-                <div class="d-flex justify-content-center">
-                    <div class="ms-2 me-2">
-                        <!--code of the address section-->
-                        <p class="lead text-white">
-                            No. 04,<br>
-                            Colombo 04,<br>
-                            Bambalapitiya,<br>
-                            Sri Lanka. 
-                        </p>
-                    </div>
-                    <div class="ms-2 me-2">
-                        <!--code of the telephone section-->
-                        <p class="lead text-white">
-                            +94 123456788 <br>
-                            +94 123456789
-                        </p>
-                    </div>
-                </div>
+      <!--begining of location section-->
+      <div class="row bg-dark-blue mt-5">
+        <div class="col-md-6 mt-5">
+          <p class="display-5 fw-bold text-white ms-5">Our Location</p>
+          <p class="fw-bold text-center text-heading mt-5 text-white">
+            Colombo
+          </p>
+          <div class="d-flex justify-content-center">
+            <div class="ms-2 me-2">
+              <!--code of the address section-->
+              <p class="lead text-white">
+                No. 04,<br />
+                Colombo 04,<br />
+                Bambalapitiya,<br />
+                Sri Lanka.
+              </p>
             </div>
-            <div class="col-md-6 mt-5 mb-5 d-flex justify-content-center align-items-center">
-                <!--code for the image-->
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img class="p-2 img-size img-shadow img-border" src="public/images/location/NelumKuluna.jpg" alt="picture_of_location_Colombo">
-                    </div>
+            <div class="ms-2 me-2">
+              <!--code of the telephone section-->
+              <p class="lead text-white">
+                +94 123456788 <br />
+                +94 123456789
+              </p>
             </div>
+          </div>
         </div>
-        <!--end of location section-->
+        <div
+          class="col-md-6 mt-5 mb-5 d-flex justify-content-center align-items-center"
+        >
+          <!--code for the image-->
+          <div class="d-flex justify-content-center align-items-center">
+            <img
+              class="p-2 img-size img-shadow img-border"
+              src="images/location/NelumKuluna.jpg"
+              alt="picture_of_location_Colombo"
+            />
+          </div>
+        </div>
+      </div>
+      <!--end of location section-->
     </div>
     <!--end of the about page section-->
 
-    <!--begining of footer-->
-    <!--end of the footer-->
-</body>
+    <!--**Footer** -->
+    <footer class="bg-dark-blue text-white text-center text-lg-start mt-3">
+      <!-- Grid container -->
+      <div class="container p-2">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12 mb-8 mb-md-0">
+            <h5 class="">Products</h5>
+            <!-- Section: links -->
+            <div class="row pt-4 mx-3">
+              <div class="col-4">
+                <a href="index.html" class="nav-link active"> Home </a>
+              </div>
+              <div class="col-4">
+                <a href="about.html" class="nav-link active"> About </a>
+              </div>
+            </div>
+            <div class="row pt-4 mx-3">
+              <div class="col-4">
+                <a href="" class="nav-link active"> Services </a>
+              </div>
+              <div class="col-4">
+                <a href="" class="nav-link active"> Contact </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-8 mb-md-0">
+            <h5 class="">Connect</h5>
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-facebook"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-twitter"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-linkedin"></i>
+                </a>
+
+                <!-- Github -->
+                <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-envelope-fill"></i>
+                </a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+            <h5 class="">Contact</h5>
+            <p>
+              <i class="bi bi-envelope-fill me-3"></i>
+              hccs@gmail.com
+            </p>
+            <p>
+              <i class="bi bi-house me-3"></i> No.04, Bambalapitiya, Sri Lanka
+            </p>
+
+            <p><i class="bi bi-telephone-fill me-3"></i> + 94 234 567 88</p>
+            <p><i class="bi bi-telephone-fill me-3"></i> + 94 234 567 89</p>
+          </div>
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!--End of footer-->
+  </body>
 </html>
+

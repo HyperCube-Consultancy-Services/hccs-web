@@ -38,23 +38,13 @@
   position: absolute;
   z-index: -1;
 }
-#head::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 102%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.4;
-  z-index: -1;
-}
+
 #head p {
   color: white;
   font-family: "Inter", sans-serif;
 }
 .p1 {
-  display: block;
+ 
   width: fit-content;
   font-size: 80px;
   position: relative;

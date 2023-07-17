@@ -1,46 +1,78 @@
 
 /*Navbar */
 .nav-item {
-    font-size: calc(0.3rem + 1.0vw);
-    padding-right:calc(0.1rem + 1.5vw);
-  }
+  font-size: calc(0.3rem + 1vw);
+  padding-right: calc(0.1rem + 1.5vw);
+}
 .navbar-brand {
-    font-size: calc(0.75rem + 1.2vw);
-  }
-
-
-
-.bg-dark-blue{
-  background-color: #1D253F;
+  font-size: calc(0.75rem + 1.2vw);
 }
 
-.bg-light-gray{
-  background-color: #D9D9D9;
+.bg-dark-blue {
+  background-color: #1d253f;
 }
 
-.text-dark-blue{
-  color: #1D253F;
+.bg-light-gray {
+  background-color: #d9d9d9;
 }
 
-.topic-text{
+.text-dark-blue {
+  color: #1d253f;
+}
+
+.topic-text {
   font-size: 50px;
   font-weight: 700;
 }
-.text-name{
+.text-name {
   font-size: 20px;
   font-weight: 600;
 }
 
-.line-space-min{
+.line-space-min {
   line-height: 40%;
 }
 
-/*styles for services section*/
-.card{
-  background-color: rgba(217,217,217,0.15);
+
+/*Hero section*/
+.images {
+  background-size: cover;
+  background-position: top center;
+  position: absolute;
+  z-index: -1;
 }
-.card-img-top-size{
+
+#head p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.p1 {
+ 
+  width: fit-content;
+  font-size: 80px;
+  font-size: calc(20px + 4.2vw);
+  position: relative;
+  font-weight: 700;
+  padding-top: 100px;
+}
+.p2 {
+  font-size: 23px;
+  font-weight: 500;
+  font-size: calc(1.5px + 1.7vw);
+}
+
+
+.p3 {
+  font-size: 30px;
+  font-weight: 530;
+}
+
+
+/*styles for services section*/
+.card {
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.card-img-top-size {
   width: 100px;
   height: 100px;
 }
-

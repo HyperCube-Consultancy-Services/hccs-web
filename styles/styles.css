@@ -32,6 +32,8 @@
 .line-space-min {
   line-height: 40%;
 }
+
+
 /*Hero section*/
 .images {
   background-size: cover;
@@ -48,6 +50,7 @@
  
   width: fit-content;
   font-size: 80px;
+  font-size: calc(20px + 4.2vw);
   position: relative;
   font-weight: 700;
   padding-top: 100px;
@@ -55,6 +58,7 @@
 .p2 {
   font-size: 23px;
   font-weight: 500;
+  font-size: calc(1.5px + 1.7vw);
 }
 
 

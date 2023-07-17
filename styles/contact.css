@@ -1,0 +1,177 @@
+.nav-item {
+    font-size: calc(0.3rem + 1.0vw);
+    padding-right:calc(0.1rem + 1.5vw);
+  }
+.navbar-brand {
+    font-size: calc(0.75rem + 1.2vw);
+  }
+
+
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url("fonts/quicksand.ttf");
+  }
+  @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url("fonts/kanit.ttf");
+  }
+  .topic {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .subtopic {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  .mainFrame {
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+  }
+  
+  .mainForm {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    border: solid rgb(186, 186, 186) 1px;
+  }
+  
+  .myInputs {
+    border-radius: 8px;
+    height: 45px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    border: solid rgb(186, 186, 186) 1px;
+  }
+  
+  .mySelects {
+    border-radius: 8px;
+    height: 45px;
+    border: solid rgb(186, 186, 186) 1px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .myTextArea {
+    padding:10px;
+    border-radius: 8px;
+    height: 150px;
+    width:100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    border: solid rgb(186, 186, 186) 1px;
+  }
+  
+  .notice{
+    font-family: 'Inter', sans-serif;
+    color: rgb(1, 1, 43);
+    font-size:13px;
+  }
+  
+  .upload{
+    height:130px;
+    width:250px;
+    border:dotted rgb(186, 186, 186) 1px;
+    font-size: 10px;
+    color: rgb(1, 1, 43);
+    font-family: 'Inter', sans-serif;
+    padding:20px;
+  }
+  
+  .uploadBtn {
+    font-family: 'Inter', sans-serif;
+    background-color: #fef3f3;
+    color: #f63b3b;
+    border: 1px solid red;
+    font-size: 10px;
+    font-weight:bolder;
+    width: 150px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  .uploadBtn:hover {
+    background-color: #f63b3b;
+    color: #fff;
+  }
+  
+  .sendBtn {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background: rgb(225, 65, 65);
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    width:140px;
+    height:45px;
+    font-size:20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .sendBtn span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sendBtn svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sendBtn:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  .sendBtn:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  .sendBtn:hover span {
+    transform: translateX(5em);
+  }
+  
+  .sendBtn:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+  .sendBtn2{
+    background-color: rgb(211, 23, 23);
+    height:45px;
+    width:50%;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    border-radius:8px;
+    border: none;
+    font-size:18px;
+    transition: 0.3s;
+  }
+  
+  .sendBtn2:hover{
+    font-weight: bolder;
+    font-size:20px;
+  }
